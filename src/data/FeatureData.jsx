@@ -1,11 +1,11 @@
-import feature1 from "../assets/feature1.svg";
-import icon_feature1 from "../assets/icon-ft-1.svg";
-import feature2 from "../assets/feature2.svg";
-import icon_feature2 from "../assets/icon-ft-2.svg";
-import feature3 from "../assets/feature3.svg";
-import icon_feature3 from "../assets/icon-ft-3.svg";
-import feature4 from "../assets/feature4.svg";
-import icon_feature4 from "../assets/icon-ft-4.svg";
+import feature1 from "@assets/feature1.svg";
+import icon_feature1 from "@assets/icon-ft-1.svg";
+import feature2 from "@assets/feature2.svg";
+import icon_feature2 from "@assets/icon-ft-2.svg";
+import feature3 from "@assets/feature3.svg";
+import icon_feature3 from "@assets/icon-ft-3.svg";
+import feature4 from "@assets/feature4.svg";
+import icon_feature4 from "@assets/icon-ft-4.svg";
 
 const featuresData = [
   {

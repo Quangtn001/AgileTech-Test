@@ -1,8 +1,8 @@
-import Feature from "../components/Feature";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-import { Testimonials } from "../components/Testimonials";
+import Feature from "@component/Feature";
+import Footer from "@component/Footer";
+import Hero from "@component/Hero";
+import Navbar from "@component/Navbar";
+import { Testimonials } from "@component/Testimonials";
 
 const HomePage = () => {
   return (

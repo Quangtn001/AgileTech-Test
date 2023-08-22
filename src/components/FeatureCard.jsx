@@ -1,6 +1,6 @@
-import arrowRight from "../assets/arrow-right.svg";
+import arrowRight from "@assets/arrow-right.svg";
 import PropTypes from "prop-types";
-import AnimationOnScroll from "../hooks/Animation";
+import AnimationOnScroll from "@hook/Animation";
 
 const FeatureCard = ({ title, description, link, bg, icon }) => {
   return (

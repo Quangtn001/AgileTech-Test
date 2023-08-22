@@ -1,5 +1,5 @@
-import logo from "../assets/logo.svg";
-import iconFooter from "../assets/icon-footer.svg";
+import logo from "@assets/logo.svg";
+import iconFooter from "@assets/icon-footer.svg";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (

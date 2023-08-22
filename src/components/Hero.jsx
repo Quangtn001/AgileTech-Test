@@ -1,5 +1,5 @@
-import hero from "../assets/hero.svg";
-import AnimationOnScroll from "../hooks/Animation";
+import hero from "@assets/hero.svg";
+import AnimationOnScroll from "@hook/Animation";
 const Hero = () => {
   return (
     <AnimationOnScroll animation="fade-in-scale">

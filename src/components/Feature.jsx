@@ -1,6 +1,6 @@
 import FeatureCard from "./FeatureCard";
-import AnimationOnScroll from "../hooks/Animation";
-import featuresData from "../data/FeatureData";
+import AnimationOnScroll from "@hook/Animation";
+import featuresData from "@data/FeatureData";
 
 const Feature = () => {
   return (
