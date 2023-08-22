@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .container {
+    @apply mx-auto max-w-screen-2xl px-[15px];
+  }
+  .description {
+    @apply text-[18px] leading-7 font-medium text-desc;
+  }
+}
+.slick-dots li button:before {
+  color: white;
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #f063b8;
+}
+
+.slick-prev:before {
+  content: url("./assets/icon-prev.svg");
+}
+
+.slick-next:before {
+  content: url("./assets/icon-next.svg");
+}
+
+.slick-prev {
+  left: -65px;
+}
+.slick-next {
+  right: -45px;
+}
+@media (max-width: 768px) {
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* styles.css (or any other CSS file) */
+.fade-in-scale {
+  animation: fadeInScale 2s ease-in-out;
+}
+.fade-in-down {
+  animation: fadeInDown 2s ease;
+}
