@@ -18,7 +18,7 @@ const Profile = () => {
             </Link>
             <Link
               className="text-[20px] leading-8 font-normal text-heading ml-[34px]"
-              href="#"
+              to="#"
             >
               Logout
             </Link>
@@ -26,12 +26,12 @@ const Profile = () => {
         </div>
         <div className="mt-[120px] w-[1600px]">
           <div className="flex items-center flex-col gap-10 lg:flex-row justify-between">
-            <a
-              href=""
+            <Link
+              to="#"
               className="px-[90px] py-[15px] text-white font-bold text-base bg-bg_color rounded-[50px]"
             >
               Add new
-            </a>
+            </Link>
             <div className="pr-[124px] flex items-center justify-center gap-[43px] ">
               <input
                 className="w-[368px] h-[50px] border placeholder:px-[34px]"
@@ -118,7 +118,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <a to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -137,7 +137,7 @@ const Profile = () => {
                                 ></path>
                               </svg>
                             </a>
-                            <a href="#">
+                            <a to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -172,7 +172,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -190,8 +190,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -206,7 +206,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -226,7 +226,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <a to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -245,7 +245,7 @@ const Profile = () => {
                                 ></path>
                               </svg>
                             </a>
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -260,7 +260,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -280,7 +280,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -298,8 +298,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -314,7 +314,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -334,7 +334,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -352,8 +352,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -368,7 +368,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -388,7 +388,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -406,8 +406,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -422,7 +422,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -442,7 +442,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -460,8 +460,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -476,7 +476,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -496,7 +496,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -514,8 +514,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -530,7 +530,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -550,7 +550,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -568,8 +568,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -584,7 +584,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -604,7 +604,7 @@ const Profile = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap  text-[20px] text-center font-normal border-t">
                           <div className="flex items-center justify-center gap-[49px]">
-                            <a href="#">
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 256 256"
@@ -622,8 +622,8 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>
                               </svg>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -638,7 +638,7 @@ const Profile = () => {
                                   id="mainIconPathAttribute"
                                 ></path>{" "}
                               </svg>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
