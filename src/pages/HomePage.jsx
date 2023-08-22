@@ -6,7 +6,7 @@ import { Testimonials } from "../components/Testimonials";
 
 const HomePage = () => {
   return (
-    <div className="container">
+    <div className="container overflow-hidden">
       <Navbar />
       <Hero />
       <Feature />
