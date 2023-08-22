@@ -54,7 +54,7 @@ const Profile = () => {
             </p>
           </Link>
           <div
-            className="absolute right-[500px] top-7"
+            className="absolute right-4 top-7"
             onClick={() => setIsMobile(false)}
           >
             <svg
